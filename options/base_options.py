@@ -8,7 +8,7 @@ def dict_to_obj(d):
 BaseOptionsJson = dict_to_obj({
   "pretrained_dir": "./checkpoints",
   "seed": 15,
-  "fix_noise_seed": False,
+  "fix_noise_seed": True,
   "input_size": 512,
   "input_nc": 3,
   "fps": 25.0,
